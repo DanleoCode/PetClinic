@@ -1,4 +1,4 @@
-package petclinik.model;
+package com.lipik.petclinik.model;
 
 public class PetType {
 
