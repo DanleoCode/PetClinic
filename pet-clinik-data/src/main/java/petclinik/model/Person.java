@@ -1,4 +1,4 @@
-package com.lipik.petclinik.model;
+package petclinik.model;
 
 public class Person {
 

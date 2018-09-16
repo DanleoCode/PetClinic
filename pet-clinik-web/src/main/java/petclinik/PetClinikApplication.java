@@ -1,4 +1,4 @@
-package com.lipik.petclinik;
+package petclinik;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
