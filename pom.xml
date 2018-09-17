@@ -4,7 +4,7 @@
 
     <groupId>com.lipik</groupId>
     <artifactId>pet-clinik</artifactId>
-    <version>0.0.4-SNAPSHOT</version>
+    <version>0.0.5-SNAPSHOT</version>
     <modules>
         <module>pet-clinik-data</module>
         <module>pet-clinik-web</module>
@@ -49,5 +49,15 @@
         <developerConnection>scm:git:https://github.com/DanleoCode/PetClinic.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
+
+    <distributionManagement>
+        <repository>
+            <uniqueVersion>false</uniqueVersion>
+            <id>corp1</id>
+            <name>lipik Repository</name>
+            <url>file:///home/danleo/mvn_disb/lipik_pet_clinik</url>
+            <layout>default</layout>
+        </repository>
+    </distributionManagement>
 
 </project>
