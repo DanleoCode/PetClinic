@@ -1,4 +1,4 @@
 package com.lipik.petclinik.model;
 
-public class Vet {
+public class Vet extends BaseEntity{
 }
