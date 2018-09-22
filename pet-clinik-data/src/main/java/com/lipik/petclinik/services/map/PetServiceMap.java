@@ -2,9 +2,11 @@ package com.lipik.petclinik.services.map;
 
 import com.lipik.petclinik.model.Pet;
 import com.lipik.petclinik.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
