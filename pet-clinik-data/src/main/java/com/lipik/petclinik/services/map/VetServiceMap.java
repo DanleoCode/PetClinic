@@ -1,11 +1,11 @@
 package com.lipik.petclinik.services.map;
 
 import com.lipik.petclinik.model.Vet;
-import com.lipik.petclinik.services.CrudService;
+import com.lipik.petclinik.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
@@ -30,5 +30,6 @@ public class VetServiceMap extends AbstractMapService<Vet, Long> implements Crud
     public void deleteById(Long id) {
         super.deleteById(id);
     }
+
 
 }
