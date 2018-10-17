@@ -2,6 +2,6 @@ package com.lipik.petclinik.services;
 
 import com.lipik.petclinik.model.Speciality;
 
-public interface SpecialitiesService extends CrudService<Speciality, Long> {
+public interface SpecialityService extends CrudService<Speciality, Long> {
 
 }

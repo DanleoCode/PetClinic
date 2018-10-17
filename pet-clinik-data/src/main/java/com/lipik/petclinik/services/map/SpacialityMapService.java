@@ -1,14 +1,14 @@
 package com.lipik.petclinik.services.map;
 
 import com.lipik.petclinik.model.Speciality;
-import com.lipik.petclinik.services.SpecialitiesService;
+import com.lipik.petclinik.services.SpecialityService;
 import org.springframework.stereotype.Service;
 
 
 import java.util.Set;
 
 @Service
-public class SpacialityMapService extends AbstractMapService<Speciality, Long> implements SpecialitiesService {
+public class SpacialityMapService extends AbstractMapService<Speciality, Long> implements SpecialityService {
     @Override
     public Set<Speciality> findAll() {
         return super.findAll();
